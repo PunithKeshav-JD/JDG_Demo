@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Sikuli                                                                 
+==============================================================================
+TC_01 Start SAP Application                                           | FAIL |
+com.github.rainmanwy.robotframework.sikulilib.exceptions.TimeoutException: Timeout happend, could not find P(CRM.png) S: 0.699999988079071
+------------------------------------------------------------------------------
+Suites.Sikuli                                                         | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\225027\PycharmProjects\pythonProject\pabot_results\3\output.xml

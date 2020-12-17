@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201217 08:25:49.587" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Sikuli" source="C:\Users\225027\PycharmProjects\pythonProject\TestCases\Sikuli.robot">
+<test id="s1-s1-t1" name="TC_01 Start SAP Application">
+<kw name="Start Sikuli Process" library="SikuliLibrary">
+<msg timestamp="20201217 08:25:49.686" level="INFO">Starting process:
+java -jar c:\users\225027\pycharmprojects\pythonproject\venv\lib\site-packages\SikuliLibrary\lib\SikuliLibrary.jar 60719 C:\Users\225027\PycharmProjects\pythonProject\pabot_results\3</msg>
+<msg timestamp="20201217 08:25:49.691" level="INFO">Start sikuli java process on port 60719</msg>
+<msg timestamp="20201217 08:25:50.683" level="INFO">Sikuli java process is started</msg>
+<status status="PASS" starttime="20201217 08:25:49.639" endtime="20201217 08:25:53.594"></status>
+</kw>
+<kw name="Add Image Path" library="SikuliLibrary">
+<doc>Add image path</doc>
+<arguments>
+<arg>C:/Users/225027/Documents/Automation/SikuliImages</arg>
+</arguments>
+<msg timestamp="20201217 08:25:53.606" level="INFO">Params: [C:/Users/225027/Documents/Automation/SikuliImages]</msg>
+<status status="PASS" starttime="20201217 08:25:53.594" endtime="20201217 08:25:53.607"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>SAP.png</arg>
+</arguments>
+<msg timestamp="20201217 08:25:55.078" level="INFO">Params: [SAP.png]</msg>
+<msg timestamp="20201217 08:25:55.078" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1608186354196.png'/&gt;
+[log] CLICK on L[952,1052]@S(0) (551 msec)</msg>
+<status status="PASS" starttime="20201217 08:25:53.607" endtime="20201217 08:25:55.078"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click</doc>
+<arguments>
+<arg>CRM.png</arg>
+</arguments>
+<msg timestamp="20201217 08:25:58.514" level="INFO">Params: [CRM.png]</msg>
+<msg timestamp="20201217 08:25:58.514" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1608186358220.png'/&gt;</msg>
+<msg timestamp="20201217 08:25:58.515" level="FAIL">com.github.rainmanwy.robotframework.sikulilib.exceptions.TimeoutException: Timeout happend, could not find P(CRM.png) S: 0.699999988079071</msg>
+<status status="FAIL" starttime="20201217 08:25:55.078" endtime="20201217 08:25:58.515"></status>
+</kw>
+<status status="FAIL" starttime="20201217 08:25:49.639" endtime="20201217 08:25:58.515" critical="yes">com.github.rainmanwy.robotframework.sikulilib.exceptions.TimeoutException: Timeout happend, could not find P(CRM.png) S: 0.699999988079071</status>
+</test>
+<status status="FAIL" starttime="20201217 08:25:49.618" endtime="20201217 08:25:58.516"></status>
+</suite>
+<status status="FAIL" starttime="20201217 08:25:49.587" endtime="20201217 08:25:58.517"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Suites">Suites</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Sikuli">Suites.Sikuli</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

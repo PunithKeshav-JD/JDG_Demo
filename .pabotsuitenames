@@ -1,0 +1,8 @@
+datasources:6c18410be5c0a6b1901a7902e0522113e9c6abda
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:e857583f4f009e90ad02f042b2f18c5dbd843c32
+--suite Suites.AMS
+--suite Suites.TC1
+--suite Suites.SAP
+--suite Suites.Sikuli
